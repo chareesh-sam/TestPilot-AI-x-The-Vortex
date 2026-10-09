@@ -1,0 +1,45 @@
+# Node & Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Python & Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+
+# Databases & Runtime Data
+*.db
+*.sqlite3
+backend/data/*.db
+backend/data/screenshots/*.png
+backend/data/temp/
+
+# Environment & IDE
+.env
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
